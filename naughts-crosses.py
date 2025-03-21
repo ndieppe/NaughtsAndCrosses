@@ -137,6 +137,7 @@ def game():
             options[row][column] = O
         gameend = checkend(options)
     game()
-game()
+if __name__ == "__main__":
+    game()
 
 #TODO: add playing against a computer
