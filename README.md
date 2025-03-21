@@ -20,6 +20,6 @@ This Program runs 100% on just python and built in modules
 How to clone your project
 
 ```bash
-git clone https://github.com/ndieppe/NaughtsAndCrosses
+git clone https://github.com/ndieppe/NaughtsAndCrosses.git
 ```
  
