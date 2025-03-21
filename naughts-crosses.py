@@ -2,7 +2,7 @@ O = "⭕"
 X = "❌"
 empty = "  "  
 
-def welcomebanner():
+def welcomebanner(): #this is used everytime a game ends 
     print()
     print(X+O+X+O+X+O+X+O+X+O+X+O+X+O+X+O+X+O+X)
     print(f"{O}  ❕                         ❕   {X}")
@@ -10,7 +10,7 @@ def welcomebanner():
     print(f"{O}  ❕                         ❕   {X}")
     print(X+O+X+O+X+O+X+O+X+O+X+O+X+O+X+O+X+O+X)
 
-def printing(options):
+def printing(options): #prints out the board
     print(f"""
      1   2   3    
 
@@ -21,7 +21,7 @@ def printing(options):
 3   {options[2][0]}❕{options[2][1]}❕{options[2][2]}
 """)
     
-#subtraction funcgtion (just for practice, I'm aware this is way less efficient)
+#subtraction function (just for practice, I'm aware this is way less efficient)
 sub_1 = lambda x: x - 1
 
 def turn(options):
